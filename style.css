@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    padding: 10px 25px;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navleft a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navleft a:hover {
+    text-decoration: underline;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.navright p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.navright p:hover {
+    text-decoration: underline;
+}
+
+.navright img {
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navright img:hover {
+    background-color: #ababab82
+}
+
+.sign {
+    padding: 12px 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border: none;
+    background-color: #0b57d0;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+
+.sign:hover {
+    box-shadow: 1px 1px 5px #727171cc;
+}
+
+.body {
+    width: 100%;
+    height: 78vh;
+
+}
+
+.logo {
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lang {
+    width: 100%;
+    height: 26vh;
+    border: 2px solid rebeccapurple;
+}
+
+.searchbar {
+    width: 45vw;
+    height: 7vh;
+    border: 1px solid rgba(149, 148, 148, 0.381);
+    border-radius: 40px;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.307);
+}
+
+.twotabs {
+    display: flex;
+    gap: 2rem;
+}
+
+.googlesearch {
+    width: 8vw;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(60, 59, 59);
+    cursor: pointer;
+
+}
+
+.googlesearch:hover {
+    border: 1px solid rgba(153, 153, 153, 0.71);
+    box-shadow: 1px 1px 9px rgba(128, 128, 128, 0.307);
+}
+
+.feelinglucky {
+    width: 10vw;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(60, 59, 59);
+    cursor: pointer;
+
+}
+
+.feelinglucky:hover {
+    border: 1px solid rgba(153, 153, 153, 0.71);
+    box-shadow: 1px 1px 9px rgba(164, 164, 164, 0.142);
+}
