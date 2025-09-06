@@ -118,7 +118,73 @@ nav {
     height: 7vh;
     border: 1px solid rgba(149, 148, 148, 0.381);
     border-radius: 40px;
-    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.307);
+    box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.searchbar:hover{
+    box-shadow: -1px 0px 9px 0px rgb(0 0 0 / 21%);
+}
+
+.search-icon{
+    height: 20px;
+    color: gray;
+}
+#search{
+    border: none;
+    padding: 0 8px;
+    font-size: 20px;
+    width: 30vw;
+    height: 30px;
+    resize: none;
+    outline: none;
+    text-align:left;
+}
+.mic{
+    height: 24px;
+    padding: 0 12px;
+}
+.img-search{
+    height: 24px;
+    padding-right: 12px;
+}
+.ai-mode-bg{
+    height: 38px;
+    width: 110px;
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    z-index: 100;
+    background: white;
+    transition: background 0.3s ease-in-out;
+    
+}
+.ai-mode-cont{
+     display: flex;
+      border-radius: 20px;
+     align-items: center;
+    gap: 5px;
+    height: 32px;
+    width: 102px;
+    padding: 8px 12px;
+    background-color: white;
+}
+
+.ai-mode-bg:hover{
+    
+    background: linear-gradient(to right, red,yellow,green,blue);
+}
+.ai-mode-bg img{
+    height: 18px;
+}
+.ai-mode-bg p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: RGB(31, 31, 31);
 }
 
 .twotabs {
@@ -138,6 +204,7 @@ nav {
 
 }
 
+
 .googlesearch:hover {
     border: 1px solid rgba(153, 153, 153, 0.71);
     box-shadow: 1px 1px 9px rgba(128, 128, 128, 0.307);
@@ -152,6 +219,7 @@ nav {
     font-size: 14px;
     color: rgb(60, 59, 59);
     cursor: pointer;
+    
 
 }
 

@@ -33,4 +33,80 @@
     padding: 8px 12px;
     font-size: 12px;
 }
+
+.body {
+    width: 100%;
+    height: 78vh;
+
+}
+
+.logo {
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    height: 23vh;
+}
+.searchbar {
+    width: 85vw;
+    height: 6vh;
+}
+#search{
+    padding: 0 4px;
+    font-size: 14px;
+    width: 40vw;
+}
+
+.mic{
+    height: 18px;
+    padding: 0 6px;
+}
+.img-search{
+    height: 18px;
+    padding-right: 6px;
+}
+
+.ai-mode-bg{
+    height: 30px;
+    width: 80px;
+    gap: 2px;
+    
+}
+.ai-mode-cont{
+    gap: 2px;
+    height: 28px;
+    width: 65px;
+    padding: 4px 6px;
+}
+.ai-mode-bg img{
+    height: 12px;
+}
+.ai-mode-bg p{
+    font-size: 12px;
+}
+.twotabs {
+    display: flex;
+    gap: 1rem;
+}
+
+.googlesearch {
+    width: 28vw;
+    height: 4vh;
+    font-size: 12px;
+}
+.feelinglucky {
+    width: 28vw;
+    height: 4vh;
+    font-size: 12px;
+}
+.lang {
+    width: 100%;
+    height: 18vh;
+    border: 2px solid rebeccapurple;
+}
 }
